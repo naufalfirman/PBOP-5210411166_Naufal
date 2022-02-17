@@ -137,3 +137,6 @@ print(set)
 set.discard(10)
 print('hapus element 10 didalam set')
 print(set)
+
+
+"HAHAHAHAHAHAHAH"
