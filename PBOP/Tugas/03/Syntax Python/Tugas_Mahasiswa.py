@@ -6,7 +6,7 @@ class Mahasiswa:
         self.thn_masuk = thn_masuk
 
 m1 = Mahasiswa('Udin', '10120371','Sistem Informasi',2020)
-m2 = Mahasiswa('Raden', '5210411157','Informatika',2021)
+m2 = Mahasiswa('Naufal', '5210411166','Informatika',2021)
 m3 = Mahasiswa('Abel', '5210411181','Pariwisata',2021)
 mahasiswa  = [m1, m2, m3]
 
