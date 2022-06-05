@@ -3,10 +3,8 @@ from connect import mydb
 cur = mydb.cursor()
 
 # insert data dosen
-cur.execute(
-    "INSERT INTO Dosen VALUES ('D2L', 'Danu Dwiki Laksana', 'Pemalang City', '0864632638');")
-cur.execute(
-    "INSERT INTO Dosen VALUES ('EAGS', 'Esa Age Giant Saputra', 'Ngawi', '99999999');")
+cur.execute("INSERT INTO Dosen VALUES ('D2L', 'Danu Dwiki Laksana', 'Pemalang City', '0864632638');")
+cur.execute("INSERT INTO Dosen VALUES ('EAGS', 'Esa Age Giant Saputra', 'Ngawi', '99999999');")
 
 # insert data matakuliah
 cur.execute("INSERT INTO MataKuliah VALUES ('MK1', 'PBOP', '3', '2');")
@@ -21,3 +19,4 @@ cur.execute("INSERT INTO Kuliah VALUES ('MK3', 'EAGS', '08:00', 'D3.3');")
 mydb.commit()
 
 print("DATA BERHASIL DISISIPKAN !!! \n")
+

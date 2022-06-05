@@ -1,6 +1,10 @@
 import cx_Oracle
-con = cx_Oracle.connect(
-    "tugas_pbop",
-    "pbop",
+
+mydb = cx_Oracle.connect(
+    "latihan2",
+    "latihan2",
     "127.0.0.1/XE"
 )
+
+
+print("DATABASE BERHASIL TERHUBUNG !!! ")
