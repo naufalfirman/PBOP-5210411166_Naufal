@@ -4,3 +4,4 @@ con = cx_Oracle.connect(
     "pbop",
     "127.0.0.1/XE"
 )
+print("DATABASE BERHASIL TERKONEKSI")

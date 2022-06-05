@@ -22,3 +22,5 @@ cur.execute("INSERT INTO `Gaji` VALUES ('April', '123456789', 23, 0, 2, 1, 0, 50
 cur.execute("INSERT INTO `Gaji` VALUES ('April', '987654321', 22, 1, 1, 1, 1, 50000)")
 
 db.commit()
+
+print(" DATA BERHASIL DIINPUTKAN !!! ")

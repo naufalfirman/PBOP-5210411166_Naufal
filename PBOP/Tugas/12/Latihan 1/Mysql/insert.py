@@ -23,4 +23,4 @@ cur.execute("INSERT INTO `Gaji` VALUES ('April', '987654321', 22, 1, 1, 1, 1, 50
 
 mydb.commit()
 
-print("DATA BERHASILI DI INPUTKAN !!!")
+print("DATA BERHASIL DI INPUTKAN !!!")

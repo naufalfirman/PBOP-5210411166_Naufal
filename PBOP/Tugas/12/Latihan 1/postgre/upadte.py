@@ -1,7 +1,6 @@
-from connect import db
+from connect import mydb
 
-cur = db.cursor()
-
+cur = mydb.cursor()
 
 # update data gaji
 cur.execute(
@@ -19,6 +18,8 @@ cur.execute(
 # update jabatan
 cur.execute(
     "UPDATE jabatan SET gapok = 15000000 WHERE kode_jabatan = 'D01'")
-db.commit()
 
-print("DATA BERHASIL DIUPDATE !!!")
+mydb.commit()
+
+
+print("DATA BERHASIL DI UPDATE")

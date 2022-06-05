@@ -1,6 +1,7 @@
-from connect import db
+from connect import mydb
 
-cur = db.cursor()
+cur = mydb.cursor()
+
 
 sql1 = '''CREATE TABLE IF NOT EXISTS jabatan (
     kode_jabatan VARCHAR(3) NOT NULL PRIMARY KEY,
@@ -46,6 +47,5 @@ sql4 = '''CREATE TABLE IF NOT EXISTS Gaji (
     
 cur.execute(sql4)
 
-db.commit()
 
 print("TABEL BERHASIL DIBUAT !!!")

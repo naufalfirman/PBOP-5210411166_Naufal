@@ -1,14 +1,12 @@
-from connect import db
-
-cur = db.cursor()
+from connect import mydb
 
 
-
+cur = mydb.cursor()
 
 # delete  gaji
 sql1 = "DELETE FROM Gaji WHERE nip = '987654321' ;"
 
-cur.execute(sql1)
+cur.execute()
 
 # delete pegawai
 sql2 = "DELETE FROM Pegawai WHERE nip = '987654321' ;"
@@ -22,6 +20,8 @@ cur.execute(sql3)
 sql4 = "DELETE FROM jabatan WHERE kode_jabatan = 'D02' ;"
 cur.execute(sql4)
 
-db.commit()
+mydb.commit()
+
+
 
 print("DATA BERHASIL DIHAPUS !!!")

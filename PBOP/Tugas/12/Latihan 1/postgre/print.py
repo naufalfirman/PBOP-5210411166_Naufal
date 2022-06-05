@@ -1,4 +1,7 @@
-from connect import db, cur
+from connect import mydb
+
+cur = mydb.cursor()
+
 
 # show data table pegawai
 print("Data Table pegawai")
